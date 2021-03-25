@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Mailer
+comment0.text=\r\n\ Write\ a\ description\ of\ JavaFX\ class\ Mailer\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=stage
+comment1.target=void\ start(javafx.stage.Stage)
+comment1.text=\r\n\ The\ start\ method\ is\ the\ main\ entry\ point\ for\ every\ JavaFX\ application.\ \r\n\ It\ is\ called\ after\ the\ init()\ method\ has\ returned\ and\ after\ \r\n\ the\ system\ is\ ready\ for\ the\ application\ to\ begin\ running.\r\n\r\n\ @param\ \ stage\ the\ primary\ stage\ for\ this\ application.\r\n
+comment2.params=event
+comment2.target=void\ showPrevious(javafx.event.ActionEvent)
+comment2.text=\r\n\ This\ will\ be\ executed\ when\ the\ button\ is\ clicked\r\n\ It\ increments\ the\ count\ by\ 1\r\n
+comment3.params=event
+comment3.target=void\ showNext(javafx.event.ActionEvent)
+comment4.params=event
+comment4.target=void\ sendMail(javafx.event.ActionEvent)
+comment5.params=event
+comment5.target=void\ emailFieldHide(javafx.scene.input.MouseEvent)
+comment6.params=event
+comment6.target=void\ emailFieldShow(javafx.scene.input.MouseEvent)
+numComments=7
