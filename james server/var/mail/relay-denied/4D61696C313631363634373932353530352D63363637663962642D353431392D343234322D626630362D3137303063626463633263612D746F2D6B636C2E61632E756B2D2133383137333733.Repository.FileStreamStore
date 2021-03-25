@@ -1,0 +1,64 @@
+Date: Thu, 25 Mar 2021 04:52:05 +0000 (GMT)
+From: postmaster@localhost
+Reply-To: MailerService@gmail.com
+To: MailerService@gmail.com
+In-Reply-To: <74583014.2.1616647925463@[192.168.1.10]>
+Subject: Re: Airbnb property has been rented
+MIME-Version: 1.0
+Message-ID: <809426706.3.1616647925936@[192.168.1.10]>
+Content-Type: multipart/report; 
+	boundary="----=_Part_2_986100834.1616647925924"; 
+	report-type=delivery-status
+
+------=_Part_2_986100834.1616647925924
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Hi. This is the James mail server at pc.
+I'm afraid I wasn't able to deliver your message to the following addresses.
+This is a permanent error; I've given up. Sorry it didn't work out.  Below
+I include the list of recipients and the reason why I was unable to deliver
+your message.
+
+Failed recipient(s):
+kamil.duszak@kcl.ac.uk
+
+Error message:
+550 5.7.606 Access denied, banned sending IP [88.104.213.231]. To request removal from this list please visit https://sender.office.com/ and follow the directions. For more information please go to  http://go.microsoft.com/fwlink/?LinkID=526655 AS(1430) [VE1EUR03FT043.eop-EUR03.prod.protection.outlook.com]
+
+
+------=_Part_2_986100834.1616647925924
+Content-Type: message/delivery-status; name=status.dat
+Content-Transfer-Encoding: 7bit
+Content-Description: Delivery Status Notification
+Content-Disposition: attachment; filename=status.dat
+
+Reporting-MTA: dns; 192.168.1.10
+Received-From-MTA: dns; 127.0.0.1
+
+Final-Recipient: rfc822; kamil.duszak@kcl.ac.uk
+Action: failed
+Status: 550 5.7.606 Access denied, banned sending IP [88.104.213.231]. To request removal from this list please visit https://sender.office.com/ and follow the directions. For more information please go to  http://go.microsoft.com/fwlink/?LinkID=526655 AS(1430) [VE1EUR03FT043.eop-EUR03.prod.protection.outlook.com]
+Diagnostic-Code: smtp; 550 5.7.606 Access denied, banned sending IP [88.104.213.231]. To request removal from this list please visit https://sender.office.com/ and follow the directions. For more information please go to  http://go.microsoft.com/fwlink/?LinkID=526655 AS(1430) [VE1EUR03FT043.eop-EUR03.prod.protection.outlook.com]
+Last-Attempt-Date: Thu, 25 Mar 2021 04:52:05 XXXXX (GMT)
+
+------=_Part_2_986100834.1616647925924
+Content-Type: message/rfc822; name="Airbnb property has been rented"
+Content-Disposition: Attachment; filename="Airbnb property has been rented"
+
+Received: from 127.0.0.1 (EHLO 192.168.1.10) ([127.0.0.1])
+          by pc (JAMES SMTP Server ) with ESMTP ID -1923349657
+          for <kamil.duszak@kcl.ac.uk>;
+          Thu, 25 Mar 2021 04:52:05 +0000 (GMT)
+Date: Thu, 25 Mar 2021 04:52:05 +0000 (GMT)
+From: MailerService@gmail.com
+To: kamil.duszak@kcl.ac.uk
+Message-ID: <74583014.2.1616647925463@[192.168.1.10]>
+Subject: Airbnb property has been rented
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+You have rented property with ID 15896822, titled 'Double room in newly refurbished flat'
+
+------=_Part_2_986100834.1616647925924--
