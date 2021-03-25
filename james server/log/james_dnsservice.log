@@ -1,0 +1,7 @@
+25-Mar-2021 04:47:10.872 INFO [main] org.apache.james.dnsservice.dnsjava.DNSJavaService.configure:143 - Autodiscovery is enabled - trying to discover your system's DNS Servers
+25-Mar-2021 04:47:10.886 INFO [main] org.apache.james.dnsservice.dnsjava.DNSJavaService.configure:148 - Adding autodiscovered server 8.8.8.8
+25-Mar-2021 04:47:10.886 INFO [main] org.apache.james.dnsservice.dnsjava.DNSJavaService.configure:148 - Adding autodiscovered server 8.8.4.4
+25-Mar-2021 04:47:10.887 INFO [main] org.apache.james.dnsservice.dnsjava.DNSJavaService.configure:157 - Adding autodiscovered search path lan.
+25-Mar-2021 04:47:10.889 INFO [main] org.apache.james.dnsservice.dnsjava.DNSJavaService.init:214 - DNS Server is: 8.8.8.8
+25-Mar-2021 04:47:10.890 INFO [main] org.apache.james.dnsservice.dnsjava.DNSJavaService.init:214 - DNS Server is: 8.8.4.4
+25-Mar-2021 04:47:10.896 INFO [main] org.apache.james.dnsservice.dnsjava.DNSJavaService.init:233 - Registered cache, resolver and search paths as DNSJava defaults

@@ -1,0 +1,81 @@
+25-Mar-2021 04:47:07.729 INFO [main] org.springframework.context.support.AbstractApplicationContext.prepareRefresh:518 - Refreshing org.apache.james.container.spring.context.JamesServerApplicationContext@7d286fb6: startup date [Thu Mar 25 04:47:07 GMT 2021]; root of context hierarchy
+25-Mar-2021 04:47:10.340 INFO [main] org.apache.commons.beanutils.FluentPropertyBeanIntrospector.introspect:147 - Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+25-Mar-2021 04:47:10.779 INFO [main] org.apache.james.container.spring.bean.factory.mailrepositorystore.MailRepositoryStoreBeanFactory.init:82 - JamesMailStore init...
+25-Mar-2021 04:47:10.790 INFO [main] org.apache.james.container.spring.bean.factory.mailrepositorystore.MailRepositoryStoreBeanFactory.registerRepository:136 - Registering Repository instance of class org.apache.james.mailrepository.file.FileMailRepository to handle file protocol requests
+25-Mar-2021 04:47:10.793 INFO [main] org.apache.james.container.spring.bean.factory.mailrepositorystore.MailRepositoryStoreBeanFactory.registerRepository:136 - Registering Repository instance of class org.apache.james.mailrepository.jdbc.JDBCMailRepository to handle db protocol requests
+25-Mar-2021 04:47:10.795 INFO [main] org.apache.james.container.spring.bean.factory.mailrepositorystore.MailRepositoryStoreBeanFactory.registerRepository:136 - Registering Repository instance of class org.apache.james.mailrepository.jdbc.JDBCMailRepository to handle dbfile protocol requests
+25-Mar-2021 04:47:26.308 INFO [main] org.apache.activemq.broker.BrokerService.<clinit>:281 - Loaded the Bouncy Castle security provider.
+25-Mar-2021 04:47:26.316 WARN [main] org.apache.activemq.broker.BrokerService.checkMemorySystemUsageLimits:2188 - Memory Usage for the Broker (1024mb) is more than the maximum available for the JVM: 512 mb - resetting to 70% of maximum available: 358 mb
+25-Mar-2021 04:47:26.329 INFO [main] org.apache.activemq.broker.BrokerService.doStartPersistenceAdapter:683 - Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Gandalf\Desktop\james-server-app-3.5.0\bin\..\var\store\activemq\brokers\KahaDB]
+25-Mar-2021 04:47:27.795 INFO [main] org.apache.activemq.store.kahadb.plist.PListStoreImpl.doStart:371 - PListStore:[C:\Users\Gandalf\Desktop\james-server-app-3.5.0\bin\..\var\store\activemq\brokers\james\tmp_storage] started
+25-Mar-2021 04:47:27.927 INFO [main] org.apache.activemq.plugin.StatisticsBrokerPlugin.installPlugin:47 - Installing StaticsBroker
+25-Mar-2021 04:47:27.933 INFO [main] org.apache.activemq.broker.BrokerService.doStartBroker:746 - Apache ActiveMQ 5.15.9 (james, broker) is starting
+25-Mar-2021 04:47:27.936 INFO [main] org.apache.activemq.plugin.StatisticsBroker.start:219 - Starting StatisticsBroker
+25-Mar-2021 04:47:27.939 INFO [main] org.apache.activemq.transport.TransportServerThreadSupport.doStart:69 - Listening for connections at: tcp://127.0.0.1:56995
+25-Mar-2021 04:47:27.941 INFO [main] org.apache.activemq.broker.TransportConnector.start:263 - Connector tcp://127.0.0.1:56995 started
+25-Mar-2021 04:47:27.942 INFO [main] org.apache.activemq.broker.BrokerService.doStartBroker:773 - Apache ActiveMQ 5.15.9 (james, broker) started
+25-Mar-2021 04:47:27.943 INFO [main] org.apache.activemq.broker.BrokerService.doStartBroker:774 - For help or more information please see: http://activemq.apache.org
+25-Mar-2021 04:47:27.966 INFO [main] org.apache.james.queue.activemq.EmbeddedActiveMQ.launchEmbeddedBroker:114 - Started embedded activeMq
+25-Mar-2021 04:47:28.020 INFO [main] org.apache.activemq.broker.TransportConnector.start:263 - Connector vm://james started
+25-Mar-2021 04:47:28.277 INFO [main] org.apache.camel.core.xml.AbstractCamelContextFactoryBean.initJMXAgent:554 - JMXAgent enabled: CamelJMXAgent[disabled=false, createConnector=false, serviceUrlPath=/jmxrmi/jamescamel]
+25-Mar-2021 04:47:28.291 INFO [main] org.apache.camel.impl.DefaultCamelContext.start:3138 - Apache Camel 2.24.1 (CamelContext: jamesCamelContext) is starting
+25-Mar-2021 04:47:28.295 INFO [main] org.apache.camel.management.ManagedManagementStrategy.doStart:205 - JMX is enabled
+25-Mar-2021 04:47:28.420 INFO [main] org.apache.camel.impl.converter.DefaultTypeConverter.doStart:66 - Type converters loaded (core: 195, classpath: 1)
+25-Mar-2021 04:47:28.449 INFO [main] org.apache.camel.impl.DefaultCamelContext.doStartCamel:3465 - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+25-Mar-2021 04:47:28.452 INFO [main] org.apache.camel.impl.DefaultCamelContext.start:3186 - Total 0 routes, of which 0 are started
+25-Mar-2021 04:47:28.454 INFO [main] org.apache.camel.impl.DefaultCamelContext.start:3197 - Apache Camel 2.24.1 (CamelContext: jamesCamelContext) started in 0.163 seconds
+25-Mar-2021 04:47:28.655 INFO [main] org.apache.camel.impl.DefaultCamelContext.doStartOrResumeRouteConsumers:4034 - Route: root started and consuming from: direct://processor.root
+25-Mar-2021 04:47:28.675 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+25-Mar-2021 04:47:28.679 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentObjectRepository opened in ..\var\mail\error
+25-Mar-2021 04:47:28.681 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+25-Mar-2021 04:47:28.683 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentStreamRepository opened in ..\var\mail\error
+25-Mar-2021 04:47:28.688 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+25-Mar-2021 04:47:28.690 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentObjectRepository opened in ..\var\mail\error
+25-Mar-2021 04:47:28.692 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+25-Mar-2021 04:47:28.693 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentStreamRepository opened in ..\var\mail\error
+25-Mar-2021 04:47:28.695 INFO [main] org.apache.james.container.spring.bean.factory.mailrepositorystore.MailRepositoryStoreBeanFactory.select:205 - added repository: org.apache.commons.configuration2.BaseHierarchicalConfiguration@442545ab(config)->org.apache.james.mailrepository.file.FileMailRepository
+25-Mar-2021 04:47:28.709 INFO [main] org.apache.camel.impl.DefaultCamelContext.doStartOrResumeRouteConsumers:4034 - Route: error started and consuming from: direct://processor.error
+25-Mar-2021 04:47:29.293 INFO [main] org.apache.camel.impl.DefaultCamelContext.doStartOrResumeRouteConsumers:4034 - Route: transport started and consuming from: direct://processor.transport
+25-Mar-2021 04:47:29.388 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+25-Mar-2021 04:47:29.391 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentObjectRepository opened in ..\var\mail\over-quota-error
+25-Mar-2021 04:47:29.393 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+25-Mar-2021 04:47:29.394 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentStreamRepository opened in ..\var\mail\over-quota-error
+25-Mar-2021 04:47:29.396 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+25-Mar-2021 04:47:29.398 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentObjectRepository opened in ..\var\mail\over-quota-error
+25-Mar-2021 04:47:29.399 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+25-Mar-2021 04:47:29.400 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentStreamRepository opened in ..\var\mail\over-quota-error
+25-Mar-2021 04:47:29.402 INFO [main] org.apache.james.container.spring.bean.factory.mailrepositorystore.MailRepositoryStoreBeanFactory.select:205 - added repository: org.apache.commons.configuration2.BaseHierarchicalConfiguration@442545ab(config)->org.apache.james.mailrepository.file.FileMailRepository
+25-Mar-2021 04:47:29.466 INFO [main] org.apache.camel.impl.DefaultCamelContext.doStartOrResumeRouteConsumers:4034 - Route: over-quota started and consuming from: direct://processor.over-quota
+25-Mar-2021 04:47:29.506 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+25-Mar-2021 04:47:29.508 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentObjectRepository opened in ..\var\mail\spam
+25-Mar-2021 04:47:29.509 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+25-Mar-2021 04:47:29.511 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentStreamRepository opened in ..\var\mail\spam
+25-Mar-2021 04:47:29.513 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+25-Mar-2021 04:47:29.515 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentObjectRepository opened in ..\var\mail\spam
+25-Mar-2021 04:47:29.516 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+25-Mar-2021 04:47:29.517 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentStreamRepository opened in ..\var\mail\spam
+25-Mar-2021 04:47:29.519 INFO [main] org.apache.james.container.spring.bean.factory.mailrepositorystore.MailRepositoryStoreBeanFactory.select:205 - added repository: org.apache.commons.configuration2.BaseHierarchicalConfiguration@442545ab(config)->org.apache.james.mailrepository.file.FileMailRepository
+25-Mar-2021 04:47:29.549 INFO [main] org.apache.camel.impl.DefaultCamelContext.doStartOrResumeRouteConsumers:4034 - Route: spam started and consuming from: direct://processor.spam
+25-Mar-2021 04:47:29.660 INFO [main] org.apache.camel.impl.DefaultCamelContext.doStartOrResumeRouteConsumers:4034 - Route: virus started and consuming from: direct://processor.virus
+25-Mar-2021 04:47:29.681 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+25-Mar-2021 04:47:29.682 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentObjectRepository opened in ..\var\mail\address-error
+25-Mar-2021 04:47:29.683 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+25-Mar-2021 04:47:29.684 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentStreamRepository opened in ..\var\mail\address-error
+25-Mar-2021 04:47:29.686 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+25-Mar-2021 04:47:29.688 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentObjectRepository opened in ..\var\mail\address-error
+25-Mar-2021 04:47:29.689 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+25-Mar-2021 04:47:29.690 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentStreamRepository opened in ..\var\mail\address-error
+25-Mar-2021 04:47:29.692 INFO [main] org.apache.james.container.spring.bean.factory.mailrepositorystore.MailRepositoryStoreBeanFactory.select:205 - added repository: org.apache.commons.configuration2.BaseHierarchicalConfiguration@442545ab(config)->org.apache.james.mailrepository.file.FileMailRepository
+25-Mar-2021 04:47:29.712 INFO [main] org.apache.camel.impl.DefaultCamelContext.doStartOrResumeRouteConsumers:4034 - Route: local-address-error started and consuming from: direct://processor.local-address-error
+25-Mar-2021 04:47:29.731 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+25-Mar-2021 04:47:29.732 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentObjectRepository opened in ..\var\mail\relay-denied
+25-Mar-2021 04:47:29.734 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+25-Mar-2021 04:47:29.735 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentStreamRepository opened in ..\var\mail\relay-denied
+25-Mar-2021 04:47:29.737 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+25-Mar-2021 04:47:29.739 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentObjectRepository opened in ..\var\mail\relay-denied
+25-Mar-2021 04:47:29.740 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:83 - Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+25-Mar-2021 04:47:29.741 INFO [main] org.apache.james.repository.file.AbstractFileRepository.init:102 - org.apache.james.repository.file.FilePersistentStreamRepository opened in ..\var\mail\relay-denied
+25-Mar-2021 04:47:29.742 INFO [main] org.apache.james.container.spring.bean.factory.mailrepositorystore.MailRepositoryStoreBeanFactory.select:205 - added repository: org.apache.commons.configuration2.BaseHierarchicalConfiguration@442545ab(config)->org.apache.james.mailrepository.file.FileMailRepository
+25-Mar-2021 04:47:29.750 INFO [main] org.apache.camel.impl.DefaultCamelContext.doStartOrResumeRouteConsumers:4034 - Route: relay-denied started and consuming from: direct://processor.relay-denied
+25-Mar-2021 04:47:29.821 INFO [main] org.apache.camel.impl.DefaultCamelContext.doStartOrResumeRouteConsumers:4034 - Route: bounces started and consuming from: direct://processor.bounces
+25-Mar-2021 04:47:32.854 INFO [main] org.apache.james.app.spring.JamesAppSpringMain.main:46 - Apache James Server is successfully started in 25183 milliseconds.

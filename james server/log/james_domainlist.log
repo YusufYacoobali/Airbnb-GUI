@@ -1,0 +1,125 @@
+25-Mar-2021 04:47:10.926 INFO [main] org.apache.james.domainlist.lib.AbstractDomainList.setAutoDetect:259 - Set autodetect to: true
+25-Mar-2021 04:47:10.926 INFO [main] org.apache.james.domainlist.lib.AbstractDomainList.setAutoDetectIP:271 - Set autodetectIP to: true
+25-Mar-2021 04:47:25.661 INFO [main] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 04:47:25.784 INFO [main] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 04:47:25.800 ERROR [main] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 04:48:03.115 INFO [smtpserver-executor-8] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 04:48:03.117 ERROR [smtpserver-executor-8] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 04:48:03.429 INFO [spooler-2] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 04:48:03.431 ERROR [spooler-2] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 04:48:03.442 INFO [spooler-2] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 04:48:03.443 ERROR [spooler-2] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 04:48:03.453 INFO [spooler-2] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 04:48:03.454 ERROR [spooler-2] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 04:48:03.465 INFO [spooler-2] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 04:48:03.467 ERROR [spooler-2] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 04:48:03.478 INFO [spooler-2] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 04:48:03.480 ERROR [spooler-2] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 04:48:54.994 INFO [smtpserver-executor-22] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 04:48:54.995 ERROR [smtpserver-executor-22] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 04:48:55.023 INFO [spooler-4] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 04:48:55.064 ERROR [spooler-4] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 04:48:55.076 INFO [spooler-4] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 04:48:55.079 ERROR [spooler-4] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 04:48:55.091 INFO [spooler-4] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 04:48:55.093 ERROR [spooler-4] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 04:48:55.104 INFO [spooler-4] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 04:48:55.106 ERROR [spooler-4] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 04:48:55.117 INFO [spooler-4] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 04:48:55.119 ERROR [spooler-4] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 04:51:12.999 INFO [smtpserver-executor-37] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 04:51:13.026 ERROR [smtpserver-executor-37] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 04:51:13.054 INFO [spooler-6] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 04:51:13.083 ERROR [spooler-6] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 04:51:13.102 INFO [spooler-6] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 04:51:13.104 ERROR [spooler-6] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 04:51:13.117 INFO [spooler-6] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 04:51:13.119 ERROR [spooler-6] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 04:51:13.132 INFO [spooler-6] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 04:51:13.134 ERROR [spooler-6] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 04:51:13.147 INFO [spooler-6] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 04:51:13.150 ERROR [spooler-6] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 04:51:25.101 INFO [smtpserver-executor-43] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 04:51:25.103 ERROR [smtpserver-executor-43] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 04:51:25.129 INFO [spooler-8] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 04:51:25.159 ERROR [spooler-8] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 04:51:25.173 INFO [spooler-8] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 04:51:25.175 ERROR [spooler-8] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 04:51:25.188 INFO [spooler-8] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 04:51:25.191 ERROR [spooler-8] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 04:51:25.207 INFO [spooler-8] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 04:51:25.209 ERROR [spooler-8] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 04:51:25.222 INFO [spooler-8] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 04:51:25.224 ERROR [spooler-8] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 04:51:26.138 INFO [spooler-12] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 04:51:26.186 ERROR [spooler-12] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 04:51:26.199 INFO [spooler-12] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 04:51:26.216 ERROR [spooler-12] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 04:51:26.229 INFO [spooler-12] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 04:51:26.230 ERROR [spooler-12] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 04:51:26.241 INFO [spooler-12] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 04:51:26.243 ERROR [spooler-12] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 04:52:05.480 INFO [smtpserver-executor-54] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 04:52:05.501 ERROR [smtpserver-executor-54] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 04:52:05.526 INFO [spooler-14] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 04:52:05.553 ERROR [spooler-14] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 04:52:05.581 INFO [spooler-14] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 04:52:05.583 ERROR [spooler-14] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 04:52:05.599 INFO [spooler-14] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 04:52:05.601 ERROR [spooler-14] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 04:52:05.612 INFO [spooler-14] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 04:52:05.614 ERROR [spooler-14] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 04:52:05.626 INFO [spooler-14] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 04:52:05.629 ERROR [spooler-14] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 04:52:06.008 INFO [spooler-18] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 04:52:06.037 ERROR [spooler-18] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 04:52:06.053 INFO [spooler-18] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 04:52:06.077 ERROR [spooler-18] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 04:52:06.092 INFO [spooler-18] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 04:52:06.094 ERROR [spooler-18] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 04:52:06.109 INFO [spooler-18] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 04:52:06.110 ERROR [spooler-18] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 04:52:44.200 INFO [smtpserver-executor-69] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 04:52:44.229 ERROR [smtpserver-executor-69] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 04:52:44.253 INFO [spooler-1] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 04:52:44.324 ERROR [spooler-1] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 04:52:44.339 INFO [spooler-1] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 04:52:44.340 ERROR [spooler-1] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 04:52:44.350 INFO [spooler-1] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 04:52:44.351 ERROR [spooler-1] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 04:52:44.362 INFO [spooler-1] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 04:52:44.364 ERROR [spooler-1] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 04:52:44.374 INFO [spooler-1] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 04:52:44.376 ERROR [spooler-1] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 04:52:44.714 INFO [spooler-5] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 04:52:44.719 ERROR [spooler-5] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 04:52:44.761 INFO [spooler-5] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 04:52:44.790 ERROR [spooler-5] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 04:52:44.800 INFO [spooler-5] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 04:52:44.801 ERROR [spooler-5] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 04:52:44.812 INFO [spooler-5] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 04:52:44.813 ERROR [spooler-5] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 13:48:06.845 INFO [smtpserver-executor-87] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 13:48:06.904 ERROR [smtpserver-executor-87] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 13:48:07.103 INFO [spooler-6] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 13:48:07.104 ERROR [spooler-6] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 13:48:07.115 INFO [spooler-6] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 13:48:07.124 ERROR [spooler-6] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 13:48:07.136 INFO [spooler-6] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 13:48:07.149 ERROR [spooler-6] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 13:48:07.160 INFO [spooler-6] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 13:48:07.162 ERROR [spooler-6] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 13:48:07.172 INFO [spooler-6] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 13:48:07.173 ERROR [spooler-6] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 13:50:38.982 INFO [smtpserver-executor-104] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 13:50:39.101 ERROR [smtpserver-executor-104] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 13:50:40.662 INFO [spooler-8] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 13:50:40.664 ERROR [spooler-8] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 13:50:40.674 INFO [spooler-8] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 13:50:40.745 ERROR [spooler-8] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 13:50:40.758 INFO [spooler-8] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 13:50:40.759 ERROR [spooler-8] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 13:50:40.812 INFO [spooler-8] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 13:50:40.815 ERROR [spooler-8] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
+25-Mar-2021 13:50:40.869 INFO [spooler-8] org.apache.james.domainlist.lib.AbstractDomainList.detectDomains:218 - Local host is: 192.168.1.10
+25-Mar-2021 13:50:40.870 ERROR [spooler-8] org.apache.james.domainlist.lib.AbstractDomainList.getDomainIpStream:246 - Cannot get IP address(es) for Domain : localhost
