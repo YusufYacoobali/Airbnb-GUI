@@ -14,6 +14,7 @@ import javax.mail.*;
 import javax.activation.*;
 import javax.mail.internet.MimeMessage;
 import javax.mail.internet.*;
+import java.io.*;
 
 /**
  * Write a description of JavaFX class Mailer here.
@@ -57,6 +58,8 @@ public class Mailer extends Application
     @Override
     public void start(Stage stage)
     {
+        startServer();       
+
         // Create a Button or any control item
         Button buttonPrevious = new Button();
         Button buttonNext = new Button();
@@ -90,6 +93,21 @@ public class Mailer extends Application
 
         // Show the Stage (window)
         stage.show();
+    }
+    
+    private void startServer()
+    {
+        ProcessBuilder server = new ProcessBuilder("cmd", "/c", "run.bat");
+        File directory = new File(System.getProperty("user.dir") + "\\james server\\bin");
+        server.directory(directory);
+        try
+        {
+            Process process = server.start();
+        }
+        catch (java.io.IOException ioe)
+        {
+            ioe.printStackTrace();
+        }
     }
 
     /**
