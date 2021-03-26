@@ -2,117 +2,120 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.image.Image?>
-<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="470.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MapController">
+<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="470.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MapController">
    <children>
-      <ImageView fitHeight="362.0" fitWidth="424.0" layoutX="80.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@boroughPic.png" />
-         </image>
-      </ImageView>
-      <Circle fx:id="Barnet" fill="DODGERBLUE" layoutX="181.0" layoutY="99.0" opacity="0.65" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="Haringey" fill="DODGERBLUE" layoutX="233.0" layoutY="99.0" opacity="0.65" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="WalthamForest" fill="DODGERBLUE" layoutX="286.0" layoutY="99.0" opacity="0.65" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="Harrow" fill="DODGERBLUE" layoutX="154.0" layoutY="151.0" opacity="0.65" radius="26.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="Brent" fill="DODGERBLUE" layoutX="206.0" layoutY="151.0" opacity="0.65" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="Camden" fill="DODGERBLUE" layoutX="259.0" layoutY="151.0" opacity="0.65" radius="26.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="Hillingdon" fill="DODGERBLUE" layoutX="128.0" layoutY="201.0" opacity="0.65" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="Hounslow" fill="DODGERBLUE" layoutX="154.0" layoutY="251.0" opacity="0.65" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="Ealing" fill="DODGERBLUE" layoutX="180.0" layoutY="201.0" opacity="0.65" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="KensingtonandChelsea" fill="DODGERBLUE" layoutX="233.0" layoutY="201.0" opacity="0.65" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="HammersmithandFulham" fill="DODGERBLUE" layoutX="207.0" layoutY="251.0" opacity="0.65" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="RichmonduponThames" fill="DODGERBLUE" layoutX="180.0" layoutY="300.0" opacity="0.65" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="Islington" fill="DODGERBLUE" layoutX="312.0" layoutY="151.0" opacity="0.65" radius="26.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="KingstonuponThames" fill="DODGERBLUE" layoutX="210.0" layoutY="350.0" opacity="0.65" radius="26.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="Merton" fill="DODGERBLUE" layoutX="233.0" layoutY="300.0" opacity="0.65" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="Wandsworth" fill="DODGERBLUE" layoutX="259.0" layoutY="250.0" opacity="0.65" radius="26.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="Westminster" fill="DODGERBLUE" layoutX="286.0" layoutY="201.0" opacity="0.65" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="Lambeth" fill="DODGERBLUE" layoutX="285.0" layoutY="300.0" opacity="0.65" radius="26.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="Sutton" fill="DODGERBLUE" layoutX="262.0" layoutY="350.0" opacity="0.65" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="TowerHamlets" fill="DODGERBLUE" layoutX="338.0" layoutY="201.0" opacity="0.65" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="CityofLondon" fill="DODGERBLUE" layoutX="312.0" layoutY="250.0" opacity="0.65" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="Croydon" fill="DODGERBLUE" layoutX="315.0" layoutY="350.0" opacity="0.65" radius="26.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="Southwark" fill="DODGERBLUE" layoutX="338.0" layoutY="300.0" opacity="0.65" radius="26.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="Enfield" fill="DODGERBLUE" layoutX="259.0" layoutY="49.0" opacity="0.65" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="Havering" fill="DODGERBLUE" layoutX="470.0" layoutY="148.0" opacity="0.65" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="BarkingandDagenham" fill="DODGERBLUE" layoutX="443.0" layoutY="198.0" opacity="0.65" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="Redbridge" fill="DODGERBLUE" layoutX="418.0" layoutY="148.0" opacity="0.65" radius="26.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="Hackney" fill="DODGERBLUE" layoutX="365.0" layoutY="151.0" opacity="0.65" radius="26.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="Newham" fill="DODGERBLUE" layoutX="391.0" layoutY="198.0" opacity="0.65" radius="26.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="Greenwich" fill="DODGERBLUE" layoutX="365.0" layoutY="251.0" opacity="0.65" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="Bexley" fill="DODGERBLUE" layoutX="418.0" layoutY="248.0" opacity="0.65" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="Lewisham" fill="DODGERBLUE" layoutX="390.0" layoutY="300.0" opacity="0.65" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="Bromley" fill="DODGERBLUE" layoutX="368.0" layoutY="350.0" opacity="0.65" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
-      <Label alignment="CENTER" layoutX="233.0" layoutY="24.0" prefHeight="50.0" prefWidth="50.0" text="ENFI" />
-      <Label alignment="CENTER" layoutX="156.0" layoutY="74.0" prefHeight="50.0" prefWidth="50.0" text="BARN" />
-      <Label alignment="CENTER" layoutX="208.0" layoutY="74.0" prefHeight="50.0" prefWidth="50.0" text="HRGY" />
-      <Label alignment="CENTER" layoutX="261.0" layoutY="73.0" prefHeight="50.0" prefWidth="50.0" text="WALT" />
-      <Label alignment="CENTER" layoutX="128.0" layoutY="124.0" prefHeight="50.0" prefWidth="50.0" text="HRRW" />
-      <Label alignment="CENTER" layoutX="182.0" layoutY="126.0" prefHeight="50.0" prefWidth="50.0" text="BREN" />
-      <Label alignment="CENTER" layoutX="233.0" layoutY="126.0" prefHeight="50.0" prefWidth="50.0" text="CAMD" />
-      <Label alignment="CENTER" layoutX="101.0" layoutY="176.0" prefHeight="50.0" prefWidth="50.0" text="HILL" />
-      <Label alignment="CENTER" layoutX="154.0" layoutY="176.0" prefHeight="50.0" prefWidth="50.0" text="EALI" />
-      <Label alignment="CENTER" layoutX="127.0" layoutY="225.0" prefHeight="50.0" prefWidth="50.0" text="HOUN" />
-      <Label alignment="CENTER" layoutX="153.0" layoutY="275.0" prefHeight="50.0" prefWidth="50.0" text="RICH" />
-      <Label alignment="CENTER" layoutX="181.0" layoutY="224.0" prefHeight="50.0" prefWidth="50.0" text="HAMM" />
-      <Label alignment="CENTER" layoutX="185.0" layoutY="326.0" prefHeight="50.0" prefWidth="50.0" text="KING" />
-      <Label alignment="CENTER" layoutX="208.0" layoutY="175.0" prefHeight="50.0" prefWidth="50.0" text="KENS" />
-      <Label alignment="CENTER" layoutX="260.0" layoutY="174.0" prefHeight="50.0" prefWidth="50.0" text="WSTM" />
-      <Label alignment="CENTER" layoutX="233.0" layoutY="224.0" prefHeight="50.0" prefWidth="50.0" text="WAND" />
-      <Label alignment="CENTER" layoutX="207.0" layoutY="274.0" prefHeight="50.0" prefWidth="50.0" text="MERT" />
-      <Label alignment="CENTER" layoutX="237.0" layoutY="325.0" prefHeight="50.0" prefWidth="50.0" text="SUTT" />
-      <Label alignment="CENTER" layoutX="258.0" layoutY="274.0" prefHeight="50.0" prefWidth="50.0" text="LAMB" />
-      <Label alignment="CENTER" layoutX="288.0" layoutY="225.0" prefHeight="50.0" prefWidth="50.0" text="CITY" />
-      <Label alignment="CENTER" layoutX="312.0" layoutY="174.0" prefHeight="50.0" prefWidth="50.0" text="TOWH" />
-      <Label alignment="CENTER" layoutX="286.0" layoutY="125.0" prefHeight="50.0" prefWidth="50.0" text="ISLI" />
-      <Label alignment="CENTER" layoutX="340.0" layoutY="125.0" prefHeight="50.0" prefWidth="50.0" text="HACK" />
-      <Label alignment="CENTER" layoutX="393.0" layoutY="124.0" prefHeight="50.0" prefWidth="50.0" text="REDB" />
-      <Label alignment="CENTER" layoutX="446.0" layoutY="124.0" prefHeight="50.0" prefWidth="50.0" text="HAVE" />
-      <Label alignment="CENTER" layoutX="367.0" layoutY="174.0" prefHeight="50.0" prefWidth="50.0" text="NEWH" />
-      <Label alignment="CENTER" layoutX="419.0" layoutY="173.0" prefHeight="50.0" prefWidth="50.0" text="BARK" />
-      <Label alignment="CENTER" layoutX="340.0" layoutY="225.0" prefHeight="50.0" prefWidth="50.0" text="GWCH" />
-      <Label alignment="CENTER" layoutX="392.0" layoutY="224.0" prefHeight="50.0" prefWidth="50.0" text="BEXL" />
-      <Label alignment="CENTER" layoutX="314.0" layoutY="275.0" prefHeight="50.0" prefWidth="50.0" text="STHW" />
-      <Label alignment="CENTER" layoutX="365.0" layoutY="276.0" prefHeight="50.0" prefWidth="50.0" text="LEWS" />
-      <Label alignment="CENTER" layoutX="290.0" layoutY="324.0" prefHeight="50.0" prefWidth="50.0" text="CROY" />
-      <Label alignment="CENTER" layoutX="341.0" layoutY="324.0" prefHeight="50.0" prefWidth="50.0" text="BROM" />
-      <Button layoutX="235.0" layoutY="25.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="48.0" prefWidth="48.0" text="Enfield" />
-      <Button layoutX="157.0" layoutY="73.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="48.0" prefWidth="48.0" text="Barnet" />
-      <Button layoutX="209.0" layoutY="74.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="48.0" prefWidth="48.0" text="Haringey" />
-      <Button layoutX="263.0" layoutY="73.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="48.0" prefWidth="48.0" text="Waltham Forest" />
-      <Button layoutX="129.0" layoutY="125.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="48.0" prefWidth="48.0" text="Harrow" />
-      <Button layoutX="182.0" layoutY="126.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="48.0" prefWidth="48.0" text="Brent" />
-      <Button layoutX="236.0" layoutY="126.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="48.0" prefWidth="48.0" text="Camden" />
-      <Button layoutX="287.0" layoutY="125.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="48.0" prefWidth="48.0" text="Islington" />
-      <Button layoutX="342.0" layoutY="127.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="48.0" prefWidth="48.0" text="Hackney" />
-      <Button layoutX="394.0" layoutY="121.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="52.0" prefWidth="48.0" text="Redbridge" />
-      <Button layoutX="446.0" layoutY="123.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="50.0" prefWidth="49.0" text="Havering" />
-      <Button layoutX="419.0" layoutY="173.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="50.0" prefWidth="49.0" text="Barking and Dagenham" />
-      <Button layoutX="367.0" layoutY="174.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="50.0" prefWidth="49.0" text="Newham" />
-      <Button layoutX="313.0" layoutY="175.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="50.0" prefWidth="49.0" text="Tower Hamlets" />
-      <Button layoutX="261.0" layoutY="176.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="50.0" prefWidth="49.0" text="Westminster" />
-      <Button layoutX="209.0" layoutY="176.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="50.0" prefWidth="49.0" text="Kensington and Chelsea" />
-      <Button layoutX="154.0" layoutY="175.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="50.0" prefWidth="49.0" text="Ealing" />
-      <Button layoutX="103.0" layoutY="175.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="50.0" prefWidth="49.0" text="Hillingdon" />
-      <Button layoutX="129.0" layoutY="225.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="50.0" prefWidth="49.0" text="Hounslow" />
-      <Button layoutX="182.0" layoutY="225.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="50.0" prefWidth="49.0" text="Hammersmith and Fulham" />
-      <Button layoutX="236.0" layoutY="226.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="50.0" prefWidth="49.0" text="Wandsworth" />
-      <Button layoutX="289.0" layoutY="224.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="50.0" prefWidth="49.0" text="City of London" />
-      <Button layoutX="339.0" layoutY="226.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="50.0" prefWidth="49.0" text="Greenwich" />
-      <Button layoutX="392.0" layoutY="223.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="50.0" prefWidth="49.0" text="Bexley" />
-      <Button layoutX="156.0" layoutY="275.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="50.0" prefWidth="49.0" text="Richmond upon Thames" />
-      <Button layoutX="208.0" layoutY="276.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="50.0" prefWidth="49.0" text="Merton" />
-      <Button layoutX="260.0" layoutY="276.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="50.0" prefWidth="49.0" text="Lambeth" />
-      <Button layoutX="312.0" layoutY="275.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="50.0" prefWidth="49.0" text="Southwark" />
-      <Button layoutX="365.0" layoutY="276.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="50.0" prefWidth="49.0" text="Lewisham" />
-      <Button layoutX="185.0" layoutY="324.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="50.0" prefWidth="49.0" text="Kingston upon Thames" />
-      <Button layoutX="239.0" layoutY="326.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="50.0" prefWidth="49.0" text="Sutton" />
-      <Button layoutX="289.0" layoutY="326.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="50.0" prefWidth="49.0" text="Croydon" />
-      <Button layoutX="344.0" layoutY="325.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="50.0" prefWidth="49.0" text="Bromley" />
-      <Label layoutX="168.0" layoutY="411.0" text="To get started, select an area on the map." />
+      <Circle fx:id="Barnet" fill="DODGERBLUE" layoutX="376.0" layoutY="117.0" opacity="0.65" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="Haringey" fill="DODGERBLUE" layoutX="428.0" layoutY="117.0" opacity="0.65" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="WalthamForest" fill="DODGERBLUE" layoutX="481.0" layoutY="117.0" opacity="0.65" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="Harrow" fill="DODGERBLUE" layoutX="299.0" layoutY="169.0" opacity="0.65" radius="26.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="Brent" fill="DODGERBLUE" layoutX="351.0" layoutY="169.0" opacity="0.65" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="Camden" fill="DODGERBLUE" layoutX="404.0" layoutY="169.0" opacity="0.65" radius="26.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="Hillingdon" fill="DODGERBLUE" layoutX="273.0" layoutY="219.0" opacity="0.65" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="Hounslow" fill="DODGERBLUE" layoutX="299.0" layoutY="269.0" opacity="0.65" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="Ealing" fill="DODGERBLUE" layoutX="325.0" layoutY="219.0" opacity="0.65" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="KensingtonandChelsea" fill="DODGERBLUE" layoutX="378.0" layoutY="219.0" opacity="0.65" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="HammersmithandFulham" fill="DODGERBLUE" layoutX="352.0" layoutY="269.0" opacity="0.65" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="RichmonduponThames" fill="DODGERBLUE" layoutX="325.0" layoutY="318.0" opacity="0.65" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="Islington" fill="DODGERBLUE" layoutX="457.0" layoutY="169.0" opacity="0.65" radius="26.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="KingstonuponThames" fill="DODGERBLUE" layoutX="355.0" layoutY="368.0" opacity="0.65" radius="26.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="Merton" fill="DODGERBLUE" layoutX="378.0" layoutY="318.0" opacity="0.65" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="Wandsworth" fill="DODGERBLUE" layoutX="404.0" layoutY="268.0" opacity="0.65" radius="26.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="Westminster" fill="DODGERBLUE" layoutX="431.0" layoutY="219.0" opacity="0.65" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="Lambeth" fill="DODGERBLUE" layoutX="430.0" layoutY="318.0" opacity="0.65" radius="26.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="Sutton" fill="DODGERBLUE" layoutX="407.0" layoutY="368.0" opacity="0.65" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="TowerHamlets" fill="DODGERBLUE" layoutX="483.0" layoutY="219.0" opacity="0.65" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="CityofLondon" fill="DODGERBLUE" layoutX="457.0" layoutY="268.0" opacity="0.65" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="Croydon" fill="DODGERBLUE" layoutX="460.0" layoutY="368.0" opacity="0.65" radius="26.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="Southwark" fill="DODGERBLUE" layoutX="483.0" layoutY="318.0" opacity="0.65" radius="26.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="Enfield" fill="DODGERBLUE" layoutX="454.0" layoutY="67.0" opacity="0.65" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="Havering" fill="DODGERBLUE" layoutX="615.0" layoutY="166.0" opacity="0.65" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="BarkingandDagenham" fill="DODGERBLUE" layoutX="588.0" layoutY="216.0" opacity="0.65" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="Redbridge" fill="DODGERBLUE" layoutX="563.0" layoutY="166.0" opacity="0.65" radius="26.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="Hackney" fill="DODGERBLUE" layoutX="510.0" layoutY="169.0" opacity="0.65" radius="26.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="Newham" fill="DODGERBLUE" layoutX="536.0" layoutY="216.0" opacity="0.65" radius="26.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="Greenwich" fill="DODGERBLUE" layoutX="510.0" layoutY="269.0" opacity="0.65" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="Bexley" fill="DODGERBLUE" layoutX="563.0" layoutY="266.0" opacity="0.65" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="Lewisham" fill="DODGERBLUE" layoutX="535.0" layoutY="318.0" opacity="0.65" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="Bromley" fill="DODGERBLUE" layoutX="513.0" layoutY="368.0" opacity="0.65" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label alignment="CENTER" layoutX="428.0" layoutY="42.0" prefHeight="50.0" prefWidth="50.0" text="ENFI" />
+      <Label alignment="CENTER" layoutX="351.0" layoutY="92.0" prefHeight="50.0" prefWidth="50.0" text="BARN" />
+      <Label alignment="CENTER" layoutX="403.0" layoutY="92.0" prefHeight="50.0" prefWidth="50.0" text="HRGY" />
+      <Label alignment="CENTER" layoutX="456.0" layoutY="91.0" prefHeight="50.0" prefWidth="50.0" text="WALT" />
+      <Label alignment="CENTER" layoutX="273.0" layoutY="142.0" prefHeight="50.0" prefWidth="50.0" text="HRRW" />
+      <Label alignment="CENTER" layoutX="327.0" layoutY="144.0" prefHeight="50.0" prefWidth="50.0" text="BREN" />
+      <Label alignment="CENTER" layoutX="378.0" layoutY="144.0" prefHeight="50.0" prefWidth="50.0" text="CAMD" />
+      <Label alignment="CENTER" layoutX="246.0" layoutY="194.0" prefHeight="50.0" prefWidth="50.0" text="HILL" />
+      <Label alignment="CENTER" layoutX="299.0" layoutY="194.0" prefHeight="50.0" prefWidth="50.0" text="EALI" />
+      <Label alignment="CENTER" layoutX="272.0" layoutY="243.0" prefHeight="50.0" prefWidth="50.0" text="HOUN" />
+      <Label alignment="CENTER" layoutX="298.0" layoutY="293.0" prefHeight="50.0" prefWidth="50.0" text="RICH" />
+      <Label alignment="CENTER" layoutX="326.0" layoutY="242.0" prefHeight="50.0" prefWidth="50.0" text="HAMM" />
+      <Label alignment="CENTER" layoutX="330.0" layoutY="344.0" prefHeight="50.0" prefWidth="50.0" text="KING" />
+      <Label alignment="CENTER" layoutX="353.0" layoutY="193.0" prefHeight="50.0" prefWidth="50.0" text="KENS" />
+      <Label alignment="CENTER" layoutX="405.0" layoutY="192.0" prefHeight="50.0" prefWidth="50.0" text="WSTM" />
+      <Label alignment="CENTER" layoutX="378.0" layoutY="242.0" prefHeight="50.0" prefWidth="50.0" text="WAND" />
+      <Label alignment="CENTER" layoutX="352.0" layoutY="292.0" prefHeight="50.0" prefWidth="50.0" text="MERT" />
+      <Label alignment="CENTER" layoutX="382.0" layoutY="343.0" prefHeight="50.0" prefWidth="50.0" text="SUTT" />
+      <Label alignment="CENTER" layoutX="403.0" layoutY="292.0" prefHeight="50.0" prefWidth="50.0" text="LAMB" />
+      <Label alignment="CENTER" layoutX="433.0" layoutY="243.0" prefHeight="50.0" prefWidth="50.0" text="CITY" />
+      <Label alignment="CENTER" layoutX="457.0" layoutY="192.0" prefHeight="50.0" prefWidth="50.0" text="TOWH" />
+      <Label alignment="CENTER" layoutX="431.0" layoutY="143.0" prefHeight="50.0" prefWidth="50.0" text="ISLI" />
+      <Label alignment="CENTER" layoutX="485.0" layoutY="143.0" prefHeight="50.0" prefWidth="50.0" text="HACK" />
+      <Label alignment="CENTER" layoutX="538.0" layoutY="142.0" prefHeight="50.0" prefWidth="50.0" text="REDB" />
+      <Label alignment="CENTER" layoutX="591.0" layoutY="142.0" prefHeight="50.0" prefWidth="50.0" text="HAVE" />
+      <Label alignment="CENTER" layoutX="512.0" layoutY="192.0" prefHeight="50.0" prefWidth="50.0" text="NEWH" />
+      <Label alignment="CENTER" layoutX="564.0" layoutY="191.0" prefHeight="50.0" prefWidth="50.0" text="BARK" />
+      <Label alignment="CENTER" layoutX="485.0" layoutY="243.0" prefHeight="50.0" prefWidth="50.0" text="GWCH" />
+      <Label alignment="CENTER" layoutX="537.0" layoutY="242.0" prefHeight="50.0" prefWidth="50.0" text="BEXL" />
+      <Label alignment="CENTER" layoutX="459.0" layoutY="293.0" prefHeight="50.0" prefWidth="50.0" text="STHW" />
+      <Label alignment="CENTER" layoutX="510.0" layoutY="294.0" prefHeight="50.0" prefWidth="50.0" text="LEWS" />
+      <Label alignment="CENTER" layoutX="435.0" layoutY="342.0" prefHeight="50.0" prefWidth="50.0" text="CROY" />
+      <Label alignment="CENTER" layoutX="486.0" layoutY="342.0" prefHeight="50.0" prefWidth="50.0" text="BROM" />
+      <Button layoutX="430.0" layoutY="43.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="48.0" prefWidth="48.0" text="Enfield" />
+      <Button layoutX="352.0" layoutY="91.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="48.0" prefWidth="48.0" text="Barnet" />
+      <Button layoutX="404.0" layoutY="92.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="48.0" prefWidth="48.0" text="Haringey" />
+      <Button layoutX="458.0" layoutY="91.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="48.0" prefWidth="48.0" text="Waltham Forest" />
+      <Button layoutX="274.0" layoutY="143.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="48.0" prefWidth="48.0" text="Harrow" />
+      <Button layoutX="327.0" layoutY="144.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="48.0" prefWidth="48.0" text="Brent" />
+      <Button layoutX="381.0" layoutY="144.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="48.0" prefWidth="48.0" text="Camden" />
+      <Button layoutX="432.0" layoutY="143.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="48.0" prefWidth="48.0" text="Islington" />
+      <Button layoutX="487.0" layoutY="145.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="48.0" prefWidth="48.0" text="Hackney" />
+      <Button layoutX="539.0" layoutY="139.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="52.0" prefWidth="48.0" text="Redbridge" />
+      <Button layoutX="591.0" layoutY="141.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="50.0" prefWidth="49.0" text="Havering" />
+      <Button layoutX="564.0" layoutY="191.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="50.0" prefWidth="49.0" text="Barking and Dagenham" />
+      <Button layoutX="512.0" layoutY="192.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="50.0" prefWidth="49.0" text="Newham" />
+      <Button layoutX="458.0" layoutY="193.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="50.0" prefWidth="49.0" text="Tower Hamlets" />
+      <Button layoutX="406.0" layoutY="194.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="50.0" prefWidth="49.0" text="Westminster" />
+      <Button layoutX="354.0" layoutY="194.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="50.0" prefWidth="49.0" text="Kensington and Chelsea" />
+      <Button layoutX="299.0" layoutY="193.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="50.0" prefWidth="49.0" text="Ealing" />
+      <Button layoutX="248.0" layoutY="193.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="50.0" prefWidth="49.0" text="Hillingdon" />
+      <Button layoutX="274.0" layoutY="243.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="50.0" prefWidth="49.0" text="Hounslow" />
+      <Button layoutX="327.0" layoutY="243.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="50.0" prefWidth="49.0" text="Hammersmith and Fulham" />
+      <Button layoutX="381.0" layoutY="244.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="50.0" prefWidth="49.0" text="Wandsworth" />
+      <Button layoutX="434.0" layoutY="242.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="50.0" prefWidth="49.0" text="City of London" />
+      <Button layoutX="484.0" layoutY="244.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="50.0" prefWidth="49.0" text="Greenwich" />
+      <Button layoutX="537.0" layoutY="241.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="50.0" prefWidth="49.0" text="Bexley" />
+      <Button layoutX="301.0" layoutY="293.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="50.0" prefWidth="49.0" text="Richmond upon Thames" />
+      <Button layoutX="353.0" layoutY="294.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="50.0" prefWidth="49.0" text="Merton" />
+      <Button layoutX="405.0" layoutY="294.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="50.0" prefWidth="49.0" text="Lambeth" />
+      <Button layoutX="457.0" layoutY="293.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="50.0" prefWidth="49.0" text="Southwark" />
+      <Button layoutX="510.0" layoutY="294.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="50.0" prefWidth="49.0" text="Lewisham" />
+      <Button layoutX="330.0" layoutY="342.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="50.0" prefWidth="49.0" text="Kingston upon Thames" />
+      <Button layoutX="384.0" layoutY="344.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="50.0" prefWidth="49.0" text="Sutton" />
+      <Button layoutX="434.0" layoutY="344.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="50.0" prefWidth="49.0" text="Croydon" />
+      <Button layoutX="489.0" layoutY="343.0" mnemonicParsing="false" onAction="#buttonClicked" opacity="0.0" prefHeight="50.0" prefWidth="49.0" text="Bromley" />
+      <Label layoutX="313.0" layoutY="429.0" text="To get started, select an area on the map." />
+      <Label layoutX="62.0" layoutY="50.0" text="Key">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="59.0" layoutY="79.0" text="&gt;1500" textFill="#e12121" />
+      <Label layoutX="57.0" layoutY="103.0" text="&gt;1000" textFill="#f5660e" />
+      <Label layoutX="58.0" layoutY="128.0" text="&gt;500" textFill="#f5b030" />
+      <Label layoutX="59.0" layoutY="153.0" text="&gt;0" textFill="#2376d0" />
    </children>
 </AnchorPane>
