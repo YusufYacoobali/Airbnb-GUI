@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=listViewController
+comment1.params=url\ resourceBundle
+comment1.target=void\ initialize(java.net.URL,\ java.util.ResourceBundle)
+comment2.params=text\ stage
+comment2.target=void\ setStage(java.lang.String,\ javafx.stage.Stage)
+comment3.params=
+comment3.target=void\ addHouses()
+comment4.params=
+comment4.target=void\ sortList()
+comment5.params=
+comment5.target=void\ addSortedList()
+comment6.params=
+comment6.target=void\ listViewClicked()
+numComments=7
