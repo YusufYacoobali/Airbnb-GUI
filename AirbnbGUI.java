@@ -56,7 +56,7 @@ public class AirbnbGUI extends Application
         stage.getIcons().add(icon); 
         
         stage.setTitle("Airbnb");
-        //stage.setResizable(false);
+        stage.setResizable(false);
         stage.setScene(scene);
         stage.show();
     }
@@ -117,10 +117,10 @@ public class AirbnbGUI extends Application
     @FXML 
     private void initialize()
     {              
-        fromChoice.getItems().addAll("-", "Â£50", "Â£151", "Â£351");
+        fromChoice.getItems().addAll("-", "£50", "£151", "£351");
         fromChoice.getSelectionModel().select("-");
          
-        toChoice.getItems().addAll("-", "Â£150", "Â£350", "Â£500");
+        toChoice.getItems().addAll("-", "£150", "£350", "£500");
         toChoice.getSelectionModel().select("-");
     }
         
