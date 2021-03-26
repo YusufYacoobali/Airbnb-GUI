@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=AirbnbGUIController
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ AirbnbGUIController\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=AirbnbGUIController()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ AirbnbGUIController\r\n
+comment2.params=event
+comment2.target=void\ rightArrow(javafx.event.ActionEvent)
+comment3.params=event
+comment3.target=void\ leftArrow(javafx.event.ActionEvent)
+comment4.params=event
+comment4.target=void\ changeRange(javafx.event.ActionEvent)
+comment5.params=
+comment5.target=void\ initialize()
+numComments=6
