@@ -56,7 +56,7 @@ public class AirbnbGUI extends Application
         stage.getIcons().add(icon); 
         
         stage.setTitle("Airbnb");
-        //stage.setResizable(false);
+        stage.setResizable(false);
         stage.setScene(scene);
         stage.show();
     }
