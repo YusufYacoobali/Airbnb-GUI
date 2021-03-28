@@ -1,12 +1,15 @@
 import java.util.Comparator;
 /**
- * Write a description of class SortByHost here.
+ * This class is sorts the listing by the field: host_name
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Yusuf Yacoobali
+ * @version v1
  */
 public class SortByHost implements Comparator<ShortPlace>
 {
+    /**
+     * Each listing is compared to another and subsequently sorted in order
+     */
     public int compare(ShortPlace a, ShortPlace b){
         return a.getHost_name().compareTo(b.getHost_name());
     }

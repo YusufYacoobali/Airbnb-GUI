@@ -12,6 +12,13 @@ import javafx.fxml.Initializable;
 import java.util.ResourceBundle;
 import java.util.*;
 
+/**
+ * This class controls the the window that pops up when a borough on the map is clicked
+ * A list view of all the listings is displayed along with a tab pane on the side
+ *
+ * @author Yusuf Yacoobali
+ * @version v1
+ */
 public class listViewController implements Initializable {
     
     private AirbnbDataLoader data = new AirbnbDataLoader();
@@ -20,6 +27,7 @@ public class listViewController implements Initializable {
     private Stage stage;
     private ArrayList<ShortPlace> placeView = new ArrayList<>();
     
+    //These variables are linked with the ones from the fxml file
     @FXML
     private ListView listView;
     @FXML
@@ -28,12 +36,21 @@ public class listViewController implements Initializable {
     private Tab initialTab;
     @FXML
     private ChoiceBox sort;
-
+    
+    /**
+     * This is like a constructor, the system executes this method before anything else
+     */
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle)
     {
     }
     
+    /**
+     * Every time a button is pressed a new stage is created and so it has to be set
+     * The houses of that borough are set along with the title and sort feature
+     * @param borough name from button text
+     * @param the newly created stage when the button is pressed
+     */
     @FXML
     public void setStage(String text, Stage stage){
         this.stage = stage;
@@ -44,6 +61,9 @@ public class listViewController implements Initializable {
         sort.getItems().addAll("Price","Host name","Number of reviews");
     }
     
+    /**
+     * This method checks every listing in the file and shows only the ones with the same borough and in the price range
+     */
     @FXML
     private void addHouses(){
         for (AirbnbListing place: data.load()){
@@ -56,7 +76,16 @@ public class listViewController implements Initializable {
         }
     }
     
-    //i am adding sortList() method directly to fxml file as scenebuilder doesnt support it for choiceboxes
+    /**
+     * This method is used to check if a listing is in the desired price range
+     */
+    // private boolean inRange(AirbnbListing place){
+        // return place.getPrice() < maxPrice && place.getPrice() > minPrice;
+    // }
+    
+    /**
+     * This method sorts the arraylist using the collections and classes created specifically to sort the list by seperate fields
+     */
     @FXML
     private void sortList(){
         if (sort.getValue().equals("Host name")){
@@ -73,13 +102,19 @@ public class listViewController implements Initializable {
         }
     }
     
+    /**
+     * Clears the current list view and add the newly sorted list
+     */
     private void addSortedList(){
         listView.getItems().clear();
         for (int i=0; i<placeView.size(); i++){
             listView.getItems().add(placeView.get(i).toString());
         }
     }
-
+    
+    /**
+     * This method gets the listing which the user selects and then calls the createTab method on that listing
+     */
     @FXML
     private void listViewClicked(){
         for (AirbnbListing place: data.load()){
@@ -88,6 +123,13 @@ public class listViewController implements Initializable {
                 this.place = place;
             }
         }
+        createTab(place);
+    }
+    
+    /**
+     * A new tab is created to display the info of the selected listing
+     */
+    private void createTab(AirbnbListing place){
         Tab tab = new Tab(place.getRoom_type() + ": $" + place.getPrice());
         tabs.getTabs().add(tab);
         tabs.getSelectionModel().select(tab);

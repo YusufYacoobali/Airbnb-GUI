@@ -1,12 +1,15 @@
 import java.util.Comparator;
 /**
- * Write a description of class SortByReviews here.
+ * This class is sorts the listing by the field: numberOfReviews
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Yusuf Yacoobali
+ * @version v1
  */
 public class SortByReviews implements Comparator<ShortPlace>
 {
+    /**
+     * Each listing is compared to another and subsequently sorted in order
+     */
     public int compare(ShortPlace a, ShortPlace b){
         return a.getNumberOfReviews() - b.getNumberOfReviews();
     }
