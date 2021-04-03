@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="test">
+   <children>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Spinner fx:id="lowerRange" editable="true">
+               <HBox.margin>
+                  <Insets left="80.0" top="40.0" />
+               </HBox.margin>
+            </Spinner>
+            <Spinner fx:id="upperRange" editable="true">
+               <HBox.margin>
+                  <Insets left="120.0" top="40.0" />
+               </HBox.margin>
+            </Spinner>
+         </children>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <TextField fx:id="one" editable="false">
+               <HBox.margin>
+                  <Insets left="80.0" top="20.0" />
+               </HBox.margin>
+            </TextField>
+            <TextField fx:id="two" editable="false">
+               <HBox.margin>
+                  <Insets left="120.0" top="20.0" />
+               </HBox.margin>
+            </TextField>
+         </children>
+      </HBox>
+   </children>
+</VBox>

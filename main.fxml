@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AirbnbGUIController">
+   <children>
+      <HBox prefWidth="1200.0" style="-fx-background-color: #cccccc;">
+         <children>
+            <Pane prefWidth="108.0" HBox.hgrow="ALWAYS">
+               <children>
+                  <ImageView fitHeight="53.0" fitWidth="51.0" layoutX="14.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@icon.png" />
+                     </image>
+                  </ImageView>
+               </children></Pane>
+            <Label fx:id="currentRange" contentDisplay="CENTER" text="RANGE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <HBox.margin>
+                  <Insets right="200.0" top="25.0" />
+               </HBox.margin>
+            </Label>
+            <Label text="From: " translateY="25.0" HBox.hgrow="ALWAYS">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <HBox.margin>
+                  <Insets bottom="40.0" left="20.0" right="5.0" />
+               </HBox.margin>
+            </Label>
+            <ChoiceBox fx:id="fromChoice" onAction="#changeRange" prefWidth="90.0" style="-fx-background-color: FFFFFF;" translateY="20.0" HBox.hgrow="ALWAYS">
+               <HBox.margin>
+                  <Insets bottom="40.0" right="20.0" />
+               </HBox.margin>
+            </ChoiceBox>
+            <Label text="To:" translateY="25.0" HBox.hgrow="ALWAYS">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <HBox.margin>
+                  <Insets bottom="40.0" right="5.0" />
+               </HBox.margin>
+            </Label>
+            <ChoiceBox fx:id="toChoice" onAction="#changeRange" prefWidth="90.0" style="-fx-background-color: FFFFFF;" translateY="20.0" HBox.hgrow="ALWAYS">
+               <HBox.margin>
+                  <Insets bottom="40.0" right="50.0" />
+               </HBox.margin>
+            </ChoiceBox>
+         </children>
+      </HBox>
+      <Pane fx:id="secPane" prefHeight="470.0" prefWidth="200.0" style="-fx-background-color: #e3e3e3;" VBox.vgrow="ALWAYS" />
+      <HBox prefWidth="1200.0" style="-fx-background-color: #cccccc;">
+         <children>
+            <Button fx:id="leftButton" disable="true" minWidth="-Infinity" mnemonicParsing="false" onAction="#leftArrow" prefHeight="35.0" prefWidth="75.0" stylesheets="@mystyle.css" text="PREV" textFill="WHITE">
+               <HBox.margin>
+                  <Insets bottom="15.0" left="100.0" top="15.0" />
+               </HBox.margin>
+            </Button>
+            <Pane HBox.hgrow="ALWAYS" />
+            <Button fx:id="rightButton" disable="true" minWidth="-Infinity" mnemonicParsing="false" onAction="#rightArrow" prefHeight="35.0" prefWidth="75.0" stylesheets="@mystyle.css" text="NEXT" textFill="WHITE">
+               <HBox.margin>
+                  <Insets bottom="15.0" right="100.0" top="15.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</VBox>
