@@ -22,6 +22,7 @@ import java.util.*;
 public class listViewController implements Initializable {
     
     private AirbnbDataLoader data = new AirbnbDataLoader();
+    private AirbnbGUIController priceRange = new AirbnbGUIController();
     private String currentBorough;
     private AirbnbListing place;
     private Stage stage;
@@ -67,7 +68,7 @@ public class listViewController implements Initializable {
     @FXML
     private void addHouses(){
         for (AirbnbListing place: data.load()){
-            if(place.getNeighbourhood().equals(currentBorough)){
+            if(place.getNeighbourhood().equals(currentBorough) && inRange(place)){
                 //create ShortPlace objects so that comparator can be used to sort them with ease for the listView.
                 ShortPlace temp = new ShortPlace(place.getHost_name(), place.getPrice(), place.getMinimumNights(), place.getNumberOfReviews());
                 placeView.add(temp);
@@ -79,9 +80,9 @@ public class listViewController implements Initializable {
     /**
      * This method is used to check if a listing is in the desired price range
      */
-    // private boolean inRange(AirbnbListing place){
-        // return place.getPrice() < maxPrice && place.getPrice() > minPrice;
-    // }
+    private boolean inRange(AirbnbListing place){
+        return place.getPrice() < priceRange.getUpperRange() && place.getPrice() > priceRange.getLowerRange();
+    }
     
     /**
      * This method sorts the arraylist using the collections and classes created specifically to sort the list by seperate fields
