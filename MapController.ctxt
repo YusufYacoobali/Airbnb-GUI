@@ -1,11 +1,16 @@
 #BlueJ class context
 comment0.target=MapController
+comment0.text=\r\n\ This\ class\ is\ responsible\ for\ controlling\ all\ things\ to\ do\ with\ the\ map.\ \r\n\ From\ showing\ the\ map\ to\ handling\ the\ button\ clicks\ on\ each\ borough\ and\ also\ \r\n\ colour\ coding\ all\ the\ boroughs\ according\ to\ the\ number\ of\ listings\ they\ contain.\r\n\ \r\n\ @author\ Sebastian\ Malos,\ Yusuf\ Yacoobali,\ Moonis\ Altaf\ and\ Kamil\ Duszak.\r\n\ @version\ 1.0\r\n
 comment1.params=url\ resourceBundle
 comment1.target=void\ initialize(java.net.URL,\ java.util.ResourceBundle)
+comment1.text=\r\n\ The\ system\ executes\ this\ method\ before\ anything\ else.\r\n\ Two\ methods\ have\ to\ be\ run\ when\ this\ scene\ shows\ up.\r\n\ They\ are\ the\ ones\ to\ set\ borough\ numbers\ and\ also\ to\ colour\ code\ the\ boroughs\r\n
 comment2.params=event
 comment2.target=void\ buttonClicked(javafx.event.ActionEvent)
+comment2.text=\ \ \ \ \r\n\ This\ method\ handles\ all\ the\ button\ clicks\ on\ each\ borough.\r\n\ Whenever\ a\ borough\ is\ clicked,\ it\ displays\ all\ the\ listings\ in\ that\ particular\ borough\ in\ a\ new\ window.\r\n\ This\ is\ done\ by\ getting\ the\ text\ on\ the\ button\ clicked\r\n\ \ \ \ \r\n\ @param\ event\ ActionEvent\ that\ happens\ when\ any\ borough\ is\ clicked\r\n
 comment3.params=
 comment3.target=void\ colourCode()
+comment3.text=\ \ \ \ \r\n\ All\ boroughs\ are\ colour-coded\ depending\ on\ the\ number\ of\ listings\ in\ that\ borough.\r\n\ The\ id\ of\ the\ circles\ are\ used\ to\ get\ number\ of\ listings\ in\ that\ borough\r\n
 comment4.params=
 comment4.target=void\ setBoroughNumbers()
+comment4.text=\r\n\ This\ method\ sets\ the\ number\ of\ lisitings\ in\ each\ borough\ and\ puts\ them\ in\ a\ hashmap.\r\n\ All\ white\ spaces\ are\ removed\ because\ circles\ cant\ have\ spaces\ in\ their\ fx\:id's\ and\ the\ circles\ are\ used\ later\ with\ the\ hashmap\r\n
 numComments=5

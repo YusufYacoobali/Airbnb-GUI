@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=AccountHandler
+comment0.text=\r\n\ Account\ handler\ class\ to\ manage\ user's\ details\ and\ send\ emails\ when\ renting.\r\n\r\n\ @author\ Sebastian\ Malos,\ Yusuf\ Yacoobali,\ Moonis\ Altaf\ and\ Kamil\ Duszak.\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=AccountHandler()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ AccountHandler\r\n
+comment2.params=
+comment2.target=void\ register()
+comment2.text=\r\n\ When\ 'Register'\ button\ is\ clicked,\ the\ text\r\n\ stored\ in\ the\ three\ fields\ is\ saved\ here.\r\n
+comment3.params=place
+comment3.target=void\ rent(AirbnbListing)
+comment3.text=\r\n\ When\ 'Rent'\ button\ is\ clicked\ in\ the\ list\ viewer,\r\n\ this\ method\ gets\ called\ to\ send\ an\ email\ to\ the\r\n\ registered\ gmail\ with\ relevant\ info.\r\n
+comment4.params=
+comment4.target=java.lang.Boolean\ wasMailSent()
+comment4.text=\r\n\ Returns\ true\ if\ an\ email\ has\ been\ sent\ at\ least\ once.\r\n
+comment5.params=
+comment5.target=java.lang.Boolean\ emailExists()
+comment5.text=\r\n\ Returns\ true\ if\ a\ valid\ email\ (@gmail.com)\ is\ being\ stored\ in\ the\ gmail\ String.\r\n
+numComments=6

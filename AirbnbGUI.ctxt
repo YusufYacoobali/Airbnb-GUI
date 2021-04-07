@@ -1,9 +1,10 @@
 #BlueJ class context
 comment0.target=AirbnbGUI
-comment0.text=\r\n\ Write\ a\ description\ of\ JavaFX\ class\ AirbnbGUI\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
-comment1.params=stage
-comment1.target=void\ start(javafx.stage.Stage)
-comment1.text=\r\n\ The\ start\ method\ is\ the\ main\ entry\ point\ for\ every\ JavaFX\ application.\ \r\n\ It\ is\ called\ after\ the\ init()\ method\ has\ returned\ and\ after\ \r\n\ the\ system\ is\ ready\ for\ the\ application\ to\ begin\ running.\r\n\r\n\ @param\ \ stage\ the\ primary\ stage\ for\ this\ application.\r\n
-comment2.params=args
-comment2.target=void\ main(java.lang.String[])
+comment0.text=\r\n\ AirbnbGUI\ is\ the\ main\ class\ of\ the\ London\ Property\ Marketplace\ application.\ It\ builds\r\n\ and\ displays\ the\ GUI.\r\n\r\n\ @author\ Sebastian\ Malos,\ Yusuf\ Yacoobali,\ Moonis\ Altaf\ and\ Kamil\ Duszak.\r\n\ @version\ 1.0\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ Main\ function,\ launches\ GUI\ builder.\r\n
+comment2.params=stage
+comment2.target=void\ start(javafx.stage.Stage)
+comment2.text=\r\n\ The\ main\ entry\ point\ for\ the\ London\ Property\ Marketplace\ application.\ \r\n\ @param\ stage\ The\ primary\ stage\ for\ this\ application.\r\n
 numComments=3

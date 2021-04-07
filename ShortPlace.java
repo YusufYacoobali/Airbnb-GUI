@@ -1,8 +1,8 @@
 /**
- * Write a description of class ShortPlace here.
+ * This class was created to make it very easy and simple to sort the list of listings
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Sebastian Malos, Yusuf Yacoobali, Moonis Altaf and Kamil Duszak.
+ * @version 1.0
  */
 public class ShortPlace
 {
@@ -22,18 +22,30 @@ public class ShortPlace
         this.numberOfReviews = numberOfReviews;
     }
     
+    /**
+     * Returns host name
+     */
     public String getHost_name() {
         return host_name;
     }
     
+    /**
+     * Returns price
+     */
     public int getPrice() {
         return price;
     }
     
+    /**
+     * Returns number of reviews
+     */
     public int getNumberOfReviews() {
         return numberOfReviews;
     }
     
+    /**
+     * Returns a string to be displayed on the list view
+     */
     public String toString(){
         return host_name +  " hosting for $" + price + ", Min stay: " + minimumNights + ", Number of reviews:" + numberOfReviews;
     }

@@ -11,23 +11,31 @@ import javafx.scene.control.*;
 import javafx.scene.layout.*;
 
 /**
- * Write a description of JavaFX class AirbnbGUI here.
+ * AirbnbGUI is the main class of the London Property Marketplace application. It builds
+ * and displays the GUI.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Sebastian Malos, Yusuf Yacoobali, Moonis Altaf and Kamil Duszak.
+ * @version 1.0
  */
 public class AirbnbGUI extends Application
-{    
+{
     /**
-     * The start method is the main entry point for every JavaFX application. 
-     * It is called after the init() method has returned and after 
-     * the system is ready for the application to begin running.
-     *
-     * @param  stage the primary stage for this application.
+     * Main function, launches GUI builder.
+     */
+    
+    public static void main(String[] args) {
+        launch(args);
+    }
+    
+    /**
+     * The main entry point for the London Property Marketplace application. 
+     * @param stage The primary stage for this application.
      */
     @Override
     public void start(Stage stage) throws Exception {
-        URL url = getClass().getResource("temp.fxml");
+        ApacheServer server = new ApacheServer();
+        
+        URL url = getClass().getResource("main.fxml");
         Pane root = FXMLLoader.load(url);
 
         Scene scene = new Scene (root);
@@ -37,13 +45,9 @@ public class AirbnbGUI extends Application
         
         stage.getIcons().add(icon); 
         
-        stage.setTitle("Airbnb");
+        stage.setTitle("London Property Marketplace");
         stage.setResizable(false);
         stage.setScene(scene);
         stage.show();
-    }
-      
-    public static void main(String[] args) {
-        launch(args);
     }
 }

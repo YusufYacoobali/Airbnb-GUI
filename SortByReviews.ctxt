@@ -1,6 +1,7 @@
 #BlueJ class context
 comment0.target=SortByReviews
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ SortByReviews\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment0.text=\r\n\ This\ class\ sorts\ the\ listing\ by\ the\ field\:\ numberOfReviews\r\n\r\n\ @author\ Sebastian\ Malos,\ Yusuf\ Yacoobali,\ Moonis\ Altaf\ and\ Kamil\ Duszak.\r\n\ @version\ 1.0\r\n
 comment1.params=a\ b
 comment1.target=int\ compare(ShortPlace,\ ShortPlace)
+comment1.text=\r\n\ Each\ listing\ is\ compared\ to\ another\ and\ subsequently\ sorted\ in\ order\ from\ least\ reviews\ to\ most\r\n
 numComments=2

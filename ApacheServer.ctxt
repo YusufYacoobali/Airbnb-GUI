@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ApacheServer
+comment0.text=\r\n\ Class\ responsible\ for\ initialising\ the\ Apache\ James\ server\ at\ startup.\r\n\r\n\ @author\ Sebastian\ Malos,\ Yusuf\ Yacoobali,\ Moonis\ Altaf\ and\ Kamil\ Duszak.\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=ApacheServer()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ ApacheServer\r\n\ Starts\ server\ to\ establish\ internet\ connection\ for\ mail\ service.\r\n
+comment2.params=
+comment2.target=void\ startServer()
+comment2.text=\r\n\ Method\ to\ initliase\ Apache\ James\ server\ to\ allow\ for\ mail\ transfer.\r\n
+comment3.params=
+comment3.target=java.lang.Boolean\ isOnline()
+comment3.text=\r\n\ Checks\ connection\ of\ server\ for\ testing\ purposes.\r\n
+numComments=4
